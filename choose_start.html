@@ -3,20 +3,24 @@
 <html>
   <head>
       <title>HalloweenMornings </title>
+  </head>
   <meta charset="utf-8" />
   <meta name="viewpoert" content="width=device=width, initial-scale=1" />
   <meta name="discription" content="HalloweenMornings"
   <link href="styles.css"
-  </head>
+ 
 
   <body>
       
 
 
       <div id="scene">
-          <h1><a href="https://cooltext.com"><img src="https://images.cooltext.com/5626671.gif" width="650" height="300"  background-color: none; alt="HalloweenMornings" /></a></h1>
+        <a href="chose_graveyard.html" id="graveyard" >GRAVEYARD</a>
+        <a href="choose_pumpkinpatch.html" id="pumpkinpatch">PUMPKINPATCH</a>
 
-          <p id="situation">Press <a href="choose_start.html">START</a>to begin.</p>
+        
+        <p id="situation">Will you go to the <a href="chose_graveyard.html">GRAVEYARD</a> or the <a href="chose_pumpkinpatch.html">PUMPKINPATCH</a>? </p>
+
           
 
       </div>
@@ -51,7 +55,7 @@
           }
 
           #scene {
-              background: url("index.png") no-repeat;
+              background: url(".png") no-repeat;
               height:1600px;
               width: 2560px;
 
@@ -61,16 +65,21 @@
           }
 
           #situation {
-              position: absolute;
-              top: 310px;
-              left: 20px;
-              padding: 15px 15px 15px 15px;
-              
-              background-color: rgba(0,0,0,.5);
-              width: 640px;
-              text-align: center;
+                position: absolute;
+                top: 310px;
+                left: 20px;
+                padding: 15px 15px 15px 15px;
+                
+                background-color: rgba(0,0,0,.5);
+                width: 640px;
+                text-align: center;
 
-          }
+            }
+
+            #graveyard {
+
+                background-color: red;
+            }
 
       </style>
 
