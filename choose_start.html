@@ -1,13 +1,13 @@
 <!DOCTYPE html>'
   
-<html>
-  <head>
-      <title>HalloweenMornings </title>
-  </head>
-  <meta charset="utf-8" />
-  <meta name="viewpoert" content="width=device=width, initial-scale=1" />
-  <meta name="discription" content="HalloweenMornings"
-  <link href="styles.css"
+  
+<head>
+      
+
+  <title>HalloweenMornings</title>
+  
+</head>
+
  
 
   <body>
@@ -15,11 +15,12 @@
 
 
       <div id="scene">
-        <a href="chose_graveyard.html" id="graveyard" >GRAVEYARD</a>
-        <a href="choose_pumpkinpatch.html" id="pumpkinpatch">PUMPKINPATCH</a>
 
-        
-        <p id="situation">Will you go to the <a href="chose_graveyard.html">GRAVEYARD</a> or the <a href="chose_pumpkinpatch.html">PUMPKINPATCH</a>? </p>
+        <a href="chose_pumpkinpatch.html" id="pumpkinpatch"> </a>
+        <a href="chose_graveyard.html" id="graveyard"> </a>
+
+
+        <p id="situation">Will you go to the <a href="chose_pumpkinpatch.html">PUMPKINPATCH</a> or the <a href="chose_graveyard.html">GRAVEYARD</a>? </p>
 
           
 
@@ -45,23 +46,24 @@
               left: 80px;
           }
 
-          a:hover {
-              text-decoration: underline;
-          }
 
           a {
               color: white;
               text-decoration: none;
           }
+              
+          a:hover {
+              text-decoration: underline;
+          }
 
           #scene {
-              background: url(".png") no-repeat;
-              height:1600px;
-              width: 2560px;
+              background: url("choose_start.png") no-repeat;
+              height:1000px;
+              width: 1000px;
 
               position: absolute;
-              top: 20px;
-              left: 20px;
+              top: 15px;
+              left: 400px;
           }
 
           #situation {
@@ -76,10 +78,37 @@
 
             }
 
+            #pumpkinpatch {
+
+                position: absolute;
+
+                left: 30px;
+                top: 60px;
+
+                width: 200px;
+                height: 600px; 
+            
+            }
+
+            #pumpkinpatch:hover {
+                background-color: rgba(256,256,256,.5);
+            }
+
             #graveyard {
 
-                background-color: red;
+                position: absolute;
+
+                left: 800px;
+                top: 60px;
+
+                width: 180px;
+                height: 600px;
             }
+
+            #graveyard:hover {
+                background-color: rgba(256,256,256,.5);
+            }
+            
 
       </style>
 

@@ -5,9 +5,6 @@
         <title>HalloweenMornings </title>
 
     </head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device=width, initial-scale=1" />
-    <link href="styles.css"
     
 
     <body>
@@ -19,7 +16,12 @@
             <h1>HalloweenMornings</h1>
 
             <p id="situation">Press <a href="choose_start.html">START</a>to begin.</p>
+
+            <p id="credit">Song: "Halloween Theme" ny <a href="https://freemusicarchive.org/music/Brakhage/Invitation_to_an_Emergency_Deluxe_edition/40th_instru/">Brakhage</a></a></p>
+        
         </div>
+
+        <audio src="Brakhage_halloweenlovers.mp3" autoplay loop></audio>
 
         <style>
             
@@ -51,7 +53,7 @@
             }
 
             #scene {
-                background: url("choose_start.png") no-repeat;
+                background: url("index.png") no-repeat;
                 height:1600px;
                 width: 2560px;
 
@@ -70,6 +72,14 @@
                 width: 640px;
                 text-align: center;
 
+            }
+
+            #credit {
+
+                position: absolute;
+                 top: 350px;
+                 left: 260px;
+                 font-size: 12px;;
             }
 
         </style>
