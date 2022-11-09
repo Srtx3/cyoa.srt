@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>'
+  
   
 <head>
-    
+      
 
-<meta charset="UTF-8">     
-<title>HalloweenMornings</title>
-<link rel="stylesheet" href="styles.css" />
+  <title>HalloweenMornings</title>
   
 </head>
 
@@ -18,33 +16,19 @@
 
       <div id="scene">
 
-        <h1
-             class="waviy">
-            <span style="--i:1">Y</span>
-            <span style="--i:2">O</span>
-            <span style="--i:3">U</span>
-            <span style="--i:4"> </span>
-            <span style="--i:5">W</span>
-            <span style="--i:6">I</span>
-            <span style="--i:7">N</span>
-            <span style="--i:8">!</span>
-            <span style="--i:9">.</span>
-            <span style="--i:10">.</span>
-            <span style="--i:11">.</span>
-    </h1>
-
-        <a href="choose_start.html">
-
+        <a href="chose_run.html">
+            <img src="run.png" id="run">
         </a>
 
-        <a href="chose_pumpkinpatch.html">
-            <img src="pumpkin.png" id="pumpkin">
+        <a href="chose_smash.html">
+            <img src="smash.png" id="smash">
         </a>
 
 
-        <p id="situation">You have made it to the end would you like to Return <a href="choose_start.html">HOME</a> or continue to <a href="chose_pumpkinpatch.html">PUMPKINPATCH</a>?</p>
+        <p id="situation">You are attacked by Pumpkins! Will you <a href="chose_run.html">RUN</a> or <a href="chose_smash.html">SMASH</a>?</p>
 
-    
+          
+
       </div>
 
       <style>
@@ -55,7 +39,6 @@
               background-color: black;
               color: white;
               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-              
           }
 
           h1 {
@@ -65,7 +48,7 @@
               margin: 0 0 0 0;
 
               position: absolute;
-              left: 200px;
+              left: 80px;
           }
 
 
@@ -79,7 +62,7 @@
           }
 
           #scene {
-              background: url("Youdied.png") no-repeat;
+              background: url("chose_pumpkinsmash.png") no-repeat;
               height:1000px;
               width: 1000px;
 
@@ -90,8 +73,8 @@
 
           #situation {
                 position: absolute;
-                top: 430px;
-                left: 150px;
+                top: 310px;
+                left: 20px;
                 padding: 15px 15px 15px 15px;
                 
                 background-color: rgba(0,0,0,.5);
@@ -100,9 +83,27 @@
 
             }
 
+            #run {
 
+                position: absolute;
 
-            #pumpkin {
+                left: 30px;
+                top: 60px;
+
+                width: 200px;
+                height: 300px; 
+
+                opacity: 0;
+            
+            }
+
+            #run:hover {
+                background-color: rgba(256,256,256,.3);
+
+                opacity: 1;
+            }
+
+            #smash {
 
                 position: absolute;
 
@@ -115,7 +116,7 @@
                 opacity: 0;
             }
 
-            #pumpkin:hover {
+            #smash:hover {
                 background-color: rgba(256,256,256,.3);
 
                 opacity: 1;

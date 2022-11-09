@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>'
+  
   
 <head>
-    
+      
 
-<meta charset="UTF-8">     
-<title>HalloweenMornings</title>
-<link rel="stylesheet" href="styles.css" />
+  <title>HalloweenMornings</title>
   
 </head>
 
@@ -18,33 +16,17 @@
 
       <div id="scene">
 
-        <h1
-             class="waviy">
-            <span style="--i:1">Y</span>
-            <span style="--i:2">O</span>
-            <span style="--i:3">U</span>
-            <span style="--i:4"> </span>
-            <span style="--i:5">W</span>
-            <span style="--i:6">I</span>
-            <span style="--i:7">N</span>
-            <span style="--i:8">!</span>
-            <span style="--i:9">.</span>
-            <span style="--i:10">.</span>
-            <span style="--i:11">.</span>
-    </h1>
-
-        <a href="choose_start.html">
-
+        <a href="chose_run.html">
+            <img src="run.png" id="run">
         </a>
-
-        <a href="chose_pumpkinpatch.html">
-            <img src="pumpkin.png" id="pumpkin">
-        </a>
-
-
-        <p id="situation">You have made it to the end would you like to Return <a href="choose_start.html">HOME</a> or continue to <a href="chose_pumpkinpatch.html">PUMPKINPATCH</a>?</p>
 
     
+
+
+        <p id="situation">You Have Succeeded with bravery <a href="chose_run.html">RUN</a> or Return <a href="choose_start.html">HOME</a>?</p>
+
+          
+
       </div>
 
       <style>
@@ -55,7 +37,6 @@
               background-color: black;
               color: white;
               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-              
           }
 
           h1 {
@@ -65,7 +46,7 @@
               margin: 0 0 0 0;
 
               position: absolute;
-              left: 200px;
+              left: 80px;
           }
 
 
@@ -79,7 +60,7 @@
           }
 
           #scene {
-              background: url("Youdied.png") no-repeat;
+              background: url("pumpkinwin.png") no-repeat;
               height:1000px;
               width: 1000px;
 
@@ -90,8 +71,8 @@
 
           #situation {
                 position: absolute;
-                top: 430px;
-                left: 150px;
+                top: 310px;
+                left: 20px;
                 padding: 15px 15px 15px 15px;
                 
                 background-color: rgba(0,0,0,.5);
@@ -100,27 +81,25 @@
 
             }
 
-
-
-            #pumpkin {
+            #run {
 
                 position: absolute;
 
-                left: 800px;
-                top: 190px;
+                left: 30px;
+                top: 60px;
 
-                width: 180px;
-                height: 250px;
+                width: 100px;
+                height: 200px; 
 
                 opacity: 0;
+            
             }
 
-            #pumpkin:hover {
+            #run:hover {
                 background-color: rgba(256,256,256,.3);
 
                 opacity: 1;
             }
-            
 
       </style>
 

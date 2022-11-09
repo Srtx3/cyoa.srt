@@ -1,10 +1,10 @@
-* {
+h1.waviy {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-h1 {
+body {
   background-color: #111;
   display: flex;
   justify-content: center;
@@ -12,19 +12,19 @@ h1 {
   min-height: 100vh;
 }
 .waviy {
-  position: relative;
+  position: absolute;
 }
-.waviy span {
-  position: relative;
+.waviy .span {
+  position: absolute;
   display: inline-block;
-  font-size: 40px;
+  font-size: 80px;
   color: #fff;
   text-transform: uppercase;
   animation: flip 2s infinite;
-  animation-delay: calc(.2s * var(--i))
+  animation-delay: calc(.2s * var(--i));
 }
 @keyframes flip {
   0%,80% {
-    transform: rotateY(360deg) 
+    transform: rotateY(360deg); 
   }
 }
